@@ -1,8 +1,8 @@
-## Task 3 – Sudoku Solver
+## Task 4 – Sudoku Solver
 
 # Overview
 
-This project is a web-based Sudoku solver developed as part of Task 3 for the internship program at Prodigy Infotech. The application allows users to input a Sudoku puzzle and solves it instantly using a backtracking algorithm. Built with pure HTML, CSS, and JavaScript, it offers an interactive and user-friendly interface for puzzle input and solution display.
+This project is a web-based Sudoku solver developed as part of Task 4 for the internship program at Prodigy Infotech. The application allows users to input a Sudoku puzzle and solves it instantly using a backtracking algorithm. Built with pure HTML, CSS, and JavaScript, it offers an interactive and user-friendly interface for puzzle input and solution display.
 
 # Features
 
