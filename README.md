@@ -47,7 +47,7 @@ Click the "Solve" button. If the puzzle is valid, the solver will display the so
 
 📂 File Structure
 
-  task4.html – Complete project with embedded HTML, CSS, and JavaScript logic.
+ ~ task4.html – Complete project with embedded HTML, CSS, and JavaScript logic.
 
 🧑 Author
 
