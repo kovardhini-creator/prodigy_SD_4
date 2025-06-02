@@ -1,44 +1,52 @@
-Task 3 – Sudoku Solver
-Overview
+## Task 3 – Sudoku Solver
+
+# Overview
+
 This project is a web-based Sudoku solver developed as part of Task 3 for the internship program at Prodigy Infotech. The application allows users to input a Sudoku puzzle and solves it instantly using a backtracking algorithm. Built with pure HTML, CSS, and JavaScript, it offers an interactive and user-friendly interface for puzzle input and solution display.
 
-Features
-Interactive 9x9 Sudoku grid for easy puzzle input
+# Features
 
-Real-time validation and solving using a recursive backtracking algorithm
+~ Interactive 9x9 Sudoku grid for easy puzzle input
 
-Clear and intuitive UI with responsive input fields
+~ Real-time validation and solving using a recursive backtracking algorithm
 
-Instant feedback upon solving or if no solution exists
+~ Clear and intuitive UI with responsive input fields
 
-No external dependencies, runs fully in the browser
+~ Instant feedback upon solving or if no solution exists
 
-Usage
+~ No external dependencies, runs fully in the browser
+
+# Usage
+
 Requirements
-Modern web browser (Chrome, Firefox, Edge, Safari, etc.)
+~ Modern web browser (Chrome, Firefox, Edge, Safari, etc.)
 
-How to Use
-Open the index.html file in your web browser
+# How to Use
 
-Enter the Sudoku puzzle numbers in the grid (empty cells left blank)
+~ Open the index.html file in your web browser
 
-Click the Solve button to compute the solution
+~ Enter the Sudoku puzzle numbers in the grid (empty cells left blank)
 
-The solved puzzle will be displayed in the grid; if unsolvable, an alert will notify you
+~ Click the Solve button to compute the solution
 
-Technical Details
-The solver uses a classic backtracking algorithm to fill empty cells one by one, ensuring each number placement is valid according to Sudoku rules.
+~ The solved puzzle will be displayed in the grid; if unsolvable, an alert will notify you
 
-Validation checks rows, columns, and 3x3 subgrids to maintain puzzle constraints.
+# Technical Details
 
-The UI is built using a dynamically generated HTML table with input fields for user interaction.
+~ The solver uses a classic backtracking algorithm to fill empty cells one by one, ensuring each number placement is valid according to Sudoku rules.
 
-The application offers clear alerts to inform users about the result of the solving process.
+~ Validation checks rows, columns, and 3x3 subgrids to maintain puzzle constraints.
 
-File Information
-index.html – Contains the full HTML structure, CSS styling, and JavaScript logic for the Sudoku solver.
+~ The UI is built using a dynamically generated HTML table with input fields for user interaction.
 
-Author
+~ The application offers clear alerts to inform users about the result of the solving process.
+
+# File Information
+
+~ index.html – Contains the full HTML structure, CSS styling, and JavaScript logic for the Sudoku solver.
+
+# Author
+
 A. Kovardhini
 B.Sc. Computer Science with Artificial Intelligence
 Intern – Prodigy Infotech
