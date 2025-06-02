@@ -1,54 +1,60 @@
-## Task 4 – Sudoku Solver
+💡 Task 4 – Sudoku Solver
 
-# Overview
+Prodigy Infotech Internship | Web Development
 
-This project is a web-based Sudoku solver developed as part of Task 4 for the internship program at Prodigy Infotech. The application allows users to input a Sudoku puzzle and solves it instantly using a backtracking algorithm. Built with pure HTML, CSS, and JavaScript, it offers an interactive and user-friendly interface for puzzle input and solution display.
+📘 Overview
 
-# Features
+The Sudoku Solver is a web-based tool developed as part of Task 4 in the Prodigy Infotech Internship. It enables users to enter an incomplete 9×9 Sudoku puzzle and solve it automatically using a backtracking algorithm. Built using vanilla HTML, CSS, and JavaScript, this tool offers an interactive and responsive interface suitable for both beginners and logic puzzle enthusiasts.
 
-~ Interactive 9x9 Sudoku grid for easy puzzle input
+⚙️ Features
 
-~ Real-time validation and solving using a recursive backtracking algorithm
+ 🧮 9x9 Dynamic Input Grid for user interaction
 
-~ Clear and intuitive UI with responsive input fields
+ 🔁 Backtracking Algorithm for efficient puzzle solving
 
-~ Instant feedback upon solving or if no solution exists
+ ✅ Real-time Validation of input and logic
 
-~ No external dependencies, runs fully in the browser
+ 🎯 Simple, intuitive, and clean UI
 
-# Usage
+ 💻 100% client-side – no server or database dependencies
 
-Requirements
-~ Modern web browser (Chrome, Firefox, Edge, Safari, etc.)
+ 🔒 Safe: no external libraries or frameworks used
 
-# How to Use
+ 🧑‍💻 How to Use
+ 
+ ~Open the File:
+ Launch task4.html in any modern web browser.
 
-~ Open the index.html file in your web browser
+~Enter the Puzzle:
+ Fill in the known values of the Sudoku puzzle. Empty cells should be left blank.
 
-~ Enter the Sudoku puzzle numbers in the grid (empty cells left blank)
+~ Solve:
+Click the "Solve" button. If the puzzle is valid, the solver will display the solution instantly.
 
-~ Click the Solve button to compute the solution
+🔢 Algorithm Logic
 
-~ The solved puzzle will be displayed in the grid; if unsolvable, an alert will notify you
+~ The Sudoku solver uses a recursive backtracking algorithm:
 
-# Technical Details
+~ It searches for empty cells sequentially.
 
-~ The solver uses a classic backtracking algorithm to fill empty cells one by one, ensuring each number placement is valid according to Sudoku rules.
+~ For each cell, it tries numbers from 1 to 9.
 
-~ Validation checks rows, columns, and 3x3 subgrids to maintain puzzle constraints.
+~ It checks whether placing a number violates any Sudoku rules (row, column, 3x3 grid).
 
-~ The UI is built using a dynamically generated HTML table with input fields for user interaction.
+~ If a conflict arises, it backtracks and tries another number.
 
-~ The application offers clear alerts to inform users about the result of the solving process.
+~ Once all cells are correctly filled, the puzzle is considered solved.
 
-# File Information
+📂 File Structure
 
-~ index.html – Contains the full HTML structure, CSS styling, and JavaScript logic for the Sudoku solver.
+  task4.html – Complete project with embedded HTML, CSS, and JavaScript logic.
 
-# Author
+🧑 Author
 
-A. Kovardhini
-B.Sc. Computer Science with Artificial Intelligence
-Intern – Prodigy Infotech
-📧 a.kovardhini1410@gmail.com
+Name: A. Kovardhini
+Course: B.Sc. Computer Science with Artificial Intelligence
+Internship Role: Web Development Intern, Prodigy Technologies
+📧 Email: a.kovardhini1410@gmail.com
+
+
 
